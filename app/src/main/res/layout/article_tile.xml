@@ -8,6 +8,12 @@
         android:id="@+id/tile_title_tv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textSize="33dp"
+        />
+    <TextView
+        android:id="@+id/tile_subtitle_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         />
 
 </LinearLayout>

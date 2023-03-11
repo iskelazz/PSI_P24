@@ -5,6 +5,8 @@ import android.os.Parcelable;
 
 import androidx.annotation.NonNull;
 
+import java.util.Objects;
+
 public class Article implements Parcelable {
     String title, subTitle, description;
 
@@ -59,6 +61,15 @@ public class Article implements Parcelable {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    @Override
+    public String toString() {
+        return "Article{" +
+                "title='" + title + '\'' +
+                ", subTitle='" + subTitle + '\'' +
+                ", description='" + description + '\'' +
+                '}';
     }
 
     @Override

@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">P24.Rivera</string>
-    <string name="butt_new" />
-    <string name="butt_clean" />
+    <string name="butt_new"> Nuevo </string>
+    <string name="butt_clean"> Limpiar </string>
+    <string name="btn_delete"> Eliminar </string>
+    <string name="btn_edit"> Editar </string>
+    <string name="btn_ok"> Ok </string>
 </resources>
